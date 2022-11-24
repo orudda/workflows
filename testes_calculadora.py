@@ -2,9 +2,9 @@ import unittest
 from calculadora import Calculadora
 
 class TestCalculadora(unittest.TestCase):
-  # def test_dominio_divisao_igual_zero(self):
-  #   calculadora = Calculadora(0, 0)
-  #   self.assertRaises(Exception, calculadora._get_times(True))
+  def test_dominio_divisao_igual_zero(self):
+    calculadora = Calculadora(0, 0)
+    self.assertRaises(Exception, calculadora._get_times, True)
     
   def test_subtraction_result(self):
     calculadora = Calculadora(1, 2)

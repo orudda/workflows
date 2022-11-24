@@ -8,7 +8,7 @@ class TestCalculadora(unittest.TestCase):
     
   def test_get_faixa_textual_nao_isento(self):
       calculadora = Calculadora(1, 2)
-      self.assertEqual(3, calculadora._get.sum(false))
+      self.assertEqual(3, calculadora._get_sum(false))
 
 
 
